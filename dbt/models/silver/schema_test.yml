@@ -1,0 +1,22 @@
+version: 2
+models:
+  - name: listings_clean
+    tests:
+      - not_null:
+          column_name: listing_id
+  - name: dim_hosts
+    columns:
+      - name: host_id
+        tests: [not_null, unique]
+  - name: dim_location
+    columns:
+      - name: host_neighbourhood
+        tests: [not_null]
+  - name: dim_property
+    columns:
+      - name: property_type
+        tests: [not_null]
+  - name: dim_roomtype
+    columns:
+      - name: room_type
+        tests: [not_null]
