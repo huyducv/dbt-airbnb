@@ -1,0 +1,12 @@
+sources:
+  - name: bronze
+    description: Raw data from CSV files load
+    database: postgres
+    schema: bronze
+    
+    tables:
+      - name: airbnb_listings_raw
+      - name: census_g01_raw
+      - name: census_g02_raw
+      - name: nsw_lga_code_raw
+      - name: nsw_lga_suburb_raw
