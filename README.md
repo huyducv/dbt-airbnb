@@ -103,8 +103,8 @@ dbt snapshot
 ```
 
 ### 3. Prerequisites
-- Google Cloud Platform: Cloud Composer (Apache Airflow) and Cloud SQL (PostgreSQL).
-- dbt Cloud: Configure to connect to Postgres instance.
+- **Google Cloud Platform**: Cloud Composer (Apache Airflow) and Cloud SQL (PostgreSQL).
+- **dbt Cloud**: Configure to connect to Postgres instance.
 
 ## Report 
 The final project handout and Airbnb analytics report is available in this repository at: [Report](https://github.com/huyducv/dbt-airbnb/blob/main/report/Airbnb_Report.pdf)
