@@ -1,5 +1,5 @@
 # Airbnb ELT Data Pipeline with dbt Cloud and Apache Airflow
-![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue?logo=python&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Apache%20Airflow-2.0+-orange?logo=apache-airflow&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-Core%20%7C%20Cloud-FF694B?logo=dbt&logoColor=white)
 ![Postgres](https://img.shields.io/badge/PostgreSQL-13+-336791?logo=postgresql&logoColor=white)
