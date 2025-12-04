@@ -87,9 +87,24 @@ Directory structure:
 
 ## Setup
 ### 1. Airflow
-
+- Serve as ingestion and data pipeline tool, handling end-to-end flow.
+- Runs `analyses-sql/part_1.sql` to create initial Bronze table in PostgreSQL.
+- Initially ingest May 2020 data file (Airbnb) and Census data (`dag/dag_part_1.py`).
+- Automate the process to ingest remaining data (`dag/dag_part_2.py`).
+- After each successful load, Airflow archive the file to avoid flexibility.
 
 ### 2. dbt Cloud
+- Create data warehouse using medallion architecture (Bronze/ Silver/ Gold).
+```
+dbt deps
+
+dbt run
+dbt snapshot
+```
+
+### 3. Prerequisites
+- Google Cloud Platform: Cloud Composer (Apache Airflow) and Cloud SQL (PostgreSQL).
+- dbt Cloud: Configure to connect to Postgres instance.
 
 ## Report 
 The final project handout and Airbnb analytics report is available in this repository at: [Report](https://github.com/huyducv/dbt-airbnb/blob/main/report/Airbnb_Report.pdf)
