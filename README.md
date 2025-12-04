@@ -6,7 +6,7 @@
 
 ## Project Overview
 A complete end-to-end ELT pipeline for Airbnb combined with NSW Census data built with Apache Airflow, Google Cloud Platform (GCP), PostgreSQL, and dbt Cloud.
-This project demonstrates modern data engineering practices through automated ingestion, transformation, and BI analytics reporting.
+This project is part of my Big Data Engineer course in UTS, demonstrating modern data engineering practices through automated ingestion, transformation, and BI analytics reporting.
 
 This pipeline ingests monthly Airbnb listing data, loads it into a data warehouse following a Bronze/ Silver/ Gold architecture, and produces analytics-ready models and final insights.
 
@@ -84,3 +84,13 @@ Directory structure:
     └── README.md
 
 ```
+
+## Setup
+### 1. Airflow
+
+
+### 2. dbt Cloud
+
+## Report 
+The final project handout and Airbnb analytics report is available in this repository at: [Report](https://github.com/huyducv/dbt-airbnb/blob/main/report/Airbnb_Report.pdf)
+
